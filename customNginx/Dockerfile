@@ -23,7 +23,7 @@ WORKDIR /var/www/html
 # move files into the container
 # because we just did the /var/www/html thats where we are working!
 # Coudl use ADD instead --> also ADD can copy files from a URL
-# ADD cana lso extract an archive.
+# ADD can also extract an archive.
 COPY index.html ./
 
 #Documents ports your image is intended to listen on
